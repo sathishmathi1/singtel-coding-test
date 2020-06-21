@@ -12,4 +12,10 @@ This is created for coding test answers
 	a. getsound method added for rooster
 	b. A male chicken is rooster. so it will have same features. so it is related.
 	c. here i used delegate instead inheritance. 
+
+4. 
+	a.b.c: added constructor with Animal, it will print correct sound and name based on parrot living
+	d. constuctor with parent class will help to other living things.
+	
+5.
 	
