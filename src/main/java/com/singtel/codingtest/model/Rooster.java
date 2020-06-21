@@ -1,18 +1,14 @@
 package com.singtel.codingtest.model;
 
-public class Rooster {
+public class Rooster extends Chicken {
 
-	/**
-	 * Delegate
-	 */
-	Animal chicken;
-	
-	public Rooster(Animal chicken) {
-		this.chicken = chicken;
+	public Rooster() {
+		super();
 	}
 
+	@Override
 	public String getSound() {
-		return chicken.getSound();
+		return "Cock-a-doodle-doo";
 	}
 
 }

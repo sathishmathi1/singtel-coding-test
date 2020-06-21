@@ -17,5 +17,23 @@ This is created for coding test answers
 	a.b.c: added constructor with Animal, it will print correct sound and name based on parrot living
 	d. constuctor with parent class will help to other living things.
 	
-5.
+B. 
+	1. Fish model class created
+	2. Add specialize method for shark and clownfish
+	3. a. not inherited from fish. model created. 
+	   b. abstract class will elimiate all duplicates. so it wont allow to add duplicate unless you override.
+	   
+C. Model animals that change behaviour - classes created. 
+
+E. Counting animals class implemented as mentioned. 
+
+BONUS: Spring boot application has been created. 
+1. Rest endpoint implemented with post method to add lanugage with sound, 
+2. Rest endpoints implemented to do some operation.
+
+	1. /list/  - list down all animals with details
+	2. /rooster/ - to add language with sound
+	3. /{name}/ - get particular animal details
+	4. /count/ - list down the count for the bonus quesion
+
 	
